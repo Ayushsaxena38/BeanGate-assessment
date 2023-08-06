@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/home.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div id = "outer-container">
+        <div id="inner-container1">
+            <button id = "login-btn">
+                Login
+            </button>
+            <button id = "signup-btn">
+                <a href="/sign-up">SignUp</a>
+                
+            </button>
+        </div>
+        <div id="inner-container2">
+            <div id="logo-heading">
+                <img id = "logo" src="./img/logo.jpeg" alt="BeanGate-logo">
+                <h2>Welcome To BeanGate</h2>
+            </div>
+            <div id="login-form">
+                <form action="/login" method="get">
+                    <input type="email" name="email" id="userEmail" placeholder="yourmail@gmail.com">
+                    <input type="password" name="password" id="userPass" placeholder="abc@123">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

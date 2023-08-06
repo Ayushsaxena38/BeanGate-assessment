@@ -1,0 +1,60 @@
+body{
+    display : flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+}
+#cnt1{
+    width: 38%;
+    padding : 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    
+}
+#cnt2{
+    /* border : 2px solid black; */
+    width: 58%;
+    padding : 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.small-cnt{
+    /* border-radius: 20px; */
+    border : 2px solid green;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding : 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.stuProp{
+    display: flex;
+    border : solid gray;
+    border-width: 1px 0 0 0;
+    /* margin-bottom: 2px; */
+    /* padding : 2px; */
+    justify-content: space-evenly;
+}
+.title-text{
+    color : lightgreen;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc; /* Add a border to the table */
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}

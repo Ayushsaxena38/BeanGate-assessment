@@ -1,0 +1,75 @@
+body{
+    background-color: lightblue;
+    margin: 0;
+}
+
+#outer-container{
+    height : 100vh;
+    width :  100vw;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+#inner-container1{
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#signup-btn{
+    background-color: lightblue;
+    margin-left: -1vw;
+}
+#login-btn{
+    background-color: limegreen;
+}
+#inner-container1 button{
+    width: 5vw;
+    height : 6vh;
+    border-radius: 3vw;
+    border : 1px solid black;
+}
+#inner-container2{
+    background-color: white;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 35vw;
+    margin-bottom: 5vh;
+    text-align: center;
+    overflow: hidden;
+    /* box-shadow: 2px#888888; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+#logo{
+    height : 5vh;
+    width : 5vw;
+}
+#login-form{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+form{
+    width: 95%;
+}
+input {
+    display: block;
+    margin: 5px;
+    padding : 5px; 
+    height : 2rem;
+    width: 90%;
+    border-radius: 8px;
+}
+button {
+    background-color: lightblue;
+    color : black;
+    border-radius: 4px;
+}

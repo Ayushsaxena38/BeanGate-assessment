@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div id="cnt1">
+        <div class = "small-cnt" id="admin">
+            <div class="title">
+                <span class = "title-text"><h3>Admin</h3></span>
+            <hr></div>
+            <%if(locals.user){%>
+            <h2><%=user.name%> - <%=user.id%></h2>
+            <%}else{%>
+                <h2>Student Name - Student Code</h2>
+                <%}%>
+            <h4>@ BeanGate Academy</h4>
+            <div class="btns">
+                <button>
+                    Message
+                </button>
+                <button>
+                    Edit Profile
+                </button>
+            </div>
+        </div>
+        <div class = "small-cnt" id="fee">
+            <div class="title">
+                <span class = "title-text">Fee Structure</span>
+            <hr></div>
+            <button>
+                Un-Paid
+            </button>
+        </div>
+    </div>
+    <div id="cnt2">
+        <div class = "small-cnt" id="student-details">
+            <div class="title">
+                <span class = "title-text"><h3>Student Details</h3></span>
+            <hr></div>
+            <div class="stuProp">
+                <h4 class = "title-text">Full Name :</h4>
+                <%if(locals.user){%>
+                    <h6 id = "title-text"> <%=locals.user.name%></h6>
+                <%}else{%>
+                    <h6 id = "title-text"> Student Name</h6>
+                <%}%>
+            </div>
+            <div class="stuProp">
+                <h4 class = "title-text">Branch :</h4>
+                <%if(locals.user){%>
+                    <h6 id = "title-text"> <%=locals.user.branch%></h6>
+                <%}else{%>
+                    <h6 id = "title-text"> Student Branch</h6>
+                <%}%>
+            </div>
+            <div class="stuProp">
+                <h4 class = "title-text">Training Type :</h4>
+                <%if(locals.user){%>
+                    <h6 id = "title-text"> <%=locals.user.traninigtypr%></h6>
+                <%}else{%>
+                    <h6 id = "title-text">type</h6>
+                <%}%>
+            </div>
+            <div class="stuProp">
+                <h4 class = "title-text">locals.User Code :</h4>
+                <%if(locals.user){%>
+                    <h6 id = "title-text"> <%=locals.user.id%></h6>
+                <%}else{%>
+                    <h6 id = "title-text"> Student Code</h6>
+                <%}%>
+            </div>
+            <div class="stuProp">
+                <h4  class = "title-text">Email :</h4>
+                <%if(locals.user){%>
+                    <h6 id = "title-text"> <%=locals.user.email%></h6>
+                <%}else{%>
+                    <h6 id = "title-text"> Student email</h6>
+                <%}%>
+            </div>
+            <div class="stuProp">
+                <h4 class = "title-text">Phone :</h4>
+                <%if(locals.user){%>
+                    <h6 id = "title-text"> <%=locals.user.phone%></h6>
+                <%}else{%>
+                    <h6 id = "title-text"> Student Phone</h6>
+                <%}%>
+            </div>
+            <div class="stuProp">
+                <h4 class = "title-text">Address :</h4>
+                <%if(locals.user){%>
+                    <h6 id = "title-text"> <%=locals.user.address%></h6>
+                <%}else{%>
+                    <h6 id = "title-text"> Student address</h6>
+                <%}%>
+            </div>
+        </div>
+        <div class = "small-cnt" id="course-details">
+            <div class="title">
+                <span class = "title-text"><h3>Course Details</h3></span>
+            <hr></div>
+            <table>
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                    <th>Column 4</th>
+                    <th>Column 5</th>
+                </tr>
+                <tr>
+                    <td>Data 1A</td>
+                    <td>Data 2A</td>
+                    <td>Data 3A</td>
+                    <td>Data 4A</td>
+                    <td>Data 5A</td>
+                </tr>
+                <tr>
+                    <td>Data 1B</td>
+                    <td>Data 2B</td>
+                    <td>Data 3B</td>
+                    <td>Data 4B</td>
+                    <td>Data 5B</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </table>
+        </div>
+    </div>
+</body>
+</html>
