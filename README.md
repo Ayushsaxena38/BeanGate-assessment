@@ -8,10 +8,15 @@ Clone the repository to your local machine using the following command:
 `git clone https://github.com/Ayushsaxena38/BeanGate-assessment.git
 
 Navigate to the project directory:
-`cd BeanGate-assessment`
+```bash
+cd BeanGate-assessment
+```
 
 Install all the Dependencies:
-`npm i`
+```bash
+npm i
+```
 
 run the server:
-`node index.js`
+```bash
+node index.js
