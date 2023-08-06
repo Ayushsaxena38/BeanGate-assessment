@@ -1,6 +1,8 @@
 BeanGate Assessment Git Repository
 Welcome to the BeanGate Assessment Git repository! This repository contains the code and resources for the BeanGate Assessment project, which is an assessment conducted by BeanGate.
 
+Hosted at :- https://beangate-app.onrender.com
+
 Installation
 To use the BeanGate Assessment project on your local machine, follow these installation instructions:
 
