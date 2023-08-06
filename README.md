@@ -5,12 +5,13 @@ Installation
 To use the BeanGate Assessment project on your local machine, follow these installation instructions:
 
 Clone the repository to your local machine using the following command:
-  git clone https://github.com/Ayushsaxena38/BeanGate-assessment.git
+`git clone https://github.com/Ayushsaxena38/BeanGate-assessment.git
 
 Navigate to the project directory:
-  cd BeanGate-assessment
+`cd BeanGate-assessment
 
 Install all the Dependencies:
-  npm i
+`npm i
+
 run the server:
-  node index.js
+`node index.js
