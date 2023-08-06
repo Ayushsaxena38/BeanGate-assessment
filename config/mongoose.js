@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');//mongodb+srv://ayushsaxena38:Ayush%4012345@cluster0.dwrztdb.mongodb.net/
-mongoose.connect('mongodb://127.0.0.1:27017/BeanGate_db',{
+mongoose.connect('mongodb+srv://ayushsaxena38:Ayush%4012345@cluster0.dwrztdb.mongodb.net/',{
     useNewUrlParser:true,
     useUnifiedTopology:true
     
