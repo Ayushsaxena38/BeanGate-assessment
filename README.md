@@ -5,7 +5,9 @@ Installation
 To use the BeanGate Assessment project on your local machine, follow these installation instructions:
 
 Clone the repository to your local machine using the following command:
-`git clone https://github.com/Ayushsaxena38/BeanGate-assessment.git
+```bash
+git clone https://github.com/Ayushsaxena38/BeanGate-assessment.git
+```
 
 Navigate to the project directory:
 ```bash
